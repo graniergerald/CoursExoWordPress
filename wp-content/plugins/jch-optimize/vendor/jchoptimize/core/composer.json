@@ -1,0 +1,21 @@
+{
+  "name": "jchoptimize/core",
+  "description": "JCH Optimize framework",
+  "minimum-stability": "dev",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Samuel Marshall",
+      "email": "samuel@jch-optimize.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "codealfa/minify": "master@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "JchOptimize\\Core\\": "src/"
+    }
+  }
+}

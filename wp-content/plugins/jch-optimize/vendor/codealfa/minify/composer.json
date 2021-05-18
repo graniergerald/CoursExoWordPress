@@ -1,0 +1,28 @@
+{
+  "name": "codealfa/minify",
+  "description": "A very fast minification library for Javacript, Css, Html, and Json",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Samuel Marshall",
+      "email": "sdmarshall73@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeAlfa\\Minify\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CodeAlfa\\Minify\\Tests\\": "tests/"
+    }
+  }
+}
